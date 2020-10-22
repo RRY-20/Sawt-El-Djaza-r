@@ -20,20 +20,5 @@ https://docs.google.com/forms/d/e/1FAIpQLSfjQLO6jlR5EVWXYib6pTOb-8ueMN3gvbdnpQV7
 3/ A detailed technical sheet of Salah Ougrout.
 
 4/ Java script for Web based corpus harvest.
- 
- function myFunction() {
-  var ss = SpreadsheetApp.getActiveSpreadsheet();
-  var ActiveSheet = ss.getActiveSheet();
-  
-  var modRes = sr.items.map(function(vid){ return [ vid.snippet.resourceId.videoId , vid.snippet.title, vid.contentDetails.videoPublishedAt]; });
-  //Logger.log (modRes);
-  
-  var ids = modRes.map ( function(res){ return res[0]; }).join(",");
-  //Logger.log (ids);
-  var stats = YouTube.Videos.list("snippet,contentDetails,status",{id:ids});
- 
-  var statss = stats.items.map(function(vidd){ return [ vidd.id ,vidd.snippet.channelTitle,vidd.contentDetails.duration, vidd.snippet.defaultAudioLanguage, vidd.contentDetails.definition,
-  vidd.snippet.categoryId, vidd.fileDetails]; });
- 
 
 5/ A sample volunteer call recording is available 
