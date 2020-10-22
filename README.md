@@ -7,7 +7,7 @@ The second part of the corpus called Volunteers corpus is collected from telepho
 
 # Provided data:
 
-1/ Sawt El-Djazair is collected from major Algerian Arabic and Tamazight sub-dialects:
+1/ Sawt El-Djazair is collected from major Algerian Arabic and Tamazight (berbère) sub-dialects:
 
 •	Tamazight, including Kabyle, Chaouia, Chenoua and Mzab. 
 
@@ -17,8 +17,8 @@ The second part of the corpus called Volunteers corpus is collected from telepho
 Link of the Form:
 https://docs.google.com/forms/d/e/1FAIpQLSfjQLO6jlR5EVWXYib6pTOb-8ueMN3gvbdnpQV78dSBsoTa1Q/viewform?fbclid=IwAR2B-kvltzmotk5AmHRXcoerAnPVTO426gchqfUwY21AJbQQ77iwKS0hLMM
 
-3/ A detailed technical sheet of Salah Ougrout.
+3/ A detailed technical sheet of Salah Ougrout. 
 
-4/ Java script for Web based corpus harvest.
+4/ Java script for Web based corpus harvest. 
 
 5/ A sample volunteer call recording is available 
